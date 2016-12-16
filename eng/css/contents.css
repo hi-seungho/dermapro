@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*******
+
+BSJ CSS RESET
+컨텐츠 코딩을 정리한 css입니다.
+
+*******/
+
+
+/* sub 공통 */
+#sub_top {margin-top: 100px; width: 100%; height: 245px; background: url(../../images/sub/img_subtop0101.jpg) no-repeat center center;}
+#sub_top02 {margin-top: 100px; width: 100%; height: 245px; background: url(../../images/sub/img_subtop0202.jpg) no-repeat center center;}
+#sub_top03 {margin-top: 100px; width: 100%; height: 245px; background: url(../../images/sub/img_subtop0505.jpg) no-repeat center center;}
+#sub_top04 {margin-top: 100px; width: 100%; height: 245px; background: url(../../images/sub/img_subtop0404.jpg) no-repeat center center;}
+#sub_top05 {margin-top: 100px; width: 100%; height: 245px; background: url(../../images/sub/img_subtop0303.jpg) no-repeat center center;}
+
+.sub_tit {width: 1116px; margin:0 auto; padding-top: 100px;}
+.bread {overflow: hidden;}
+.home {width: 1116px; margin:0 auto; padding: 30px 0; text-align: right;}
+.home .bold {font-weight: 600;}
+.home span {padding: 0 1px;font-family: 'Nanum Gothic';}
+.sub_top_menu {width: 1116px; overflow: hidden; margin:0 auto;}
+.sub_top_menu li {float: left;}
+.sub_top_menu li a {display: block; width: 159px; padding: 10px 0; border: 1px solid #dedddd; border-right: none; box-sizing:border-box; text-align: center; font-size: 15px; }
+.sub_top_menu li:last-of-type a {border-right: 1px solid #dedddd;}
+.sub_top_menu li:hover a {background: #0f87b1; color:#fefefe;}
+.sub_top_menu li.on a {background: #0f87b1; color:#fefefe;}
+.five li a {width: 223px; }
+.four li a {width: 278px;}
+.three li a {width: 371.5px;}
+#container {width: 1116px; margin:0 auto;}
+.tit_bg {position: relative; width: 1116px; padding:50px 0; background-image: url(../../images/sub/img_tit_bg.jpg); background-repeat:repeat-x; background-position:0 50%; text-align: center;}
+.tit_bg h3 {font-size: 30px; font-weight: 600; color:#3c3c3c; text-align: center; display: inline; background-color: #fff; padding:0 50px; font-family: 'Nanum Gothic';}
+
+.con {overflow: hidden; margin-bottom: 130px;}
+#top {position: fixed; top: 80%; right:5px;}
+.mb0 {margin-bottom: 0;}
+
+
+/* sub0101 - 회사소개 */
+.box {overflow: hidden; margin-bottom: 50px; width: 1116px; font-family: 'Nanum Gothic';}
+.box:last-of-type {margin-bottom: 0;}
+.box > img {float: left; margin-right: 25px;}
+.box .comm-desc {float: left; font-size: 14px; line-height: 24px; }
+.box .comm-desc .bar {display: block; text-indent: -9999px; width: 50px; height: 3px; background: #0f87b1; margin: 20px 0;}
+.box .comm-desc .ti-desc {font-family: 'Nanum Gothic'; width: 675px;}
+.box .ti-tit {font-size: 20px; font-weight: 600; color:#3e3e3e; margin-bottom: 10px;}
+.box .list_box {float: left; width: 340px; padding-left: 110px; background: url(../../images/sub/img_ceobar01.gif) 90px 0px no-repeat; line-height: 27px; position: relative;}
+.box .list_box02 {background: url(../../images/sub/img_ceobar02.gif) 45px no-repeat; }
+.box .list_box .list_txt {position: absolute; left: 0; top: 0; font-size: 14px; font-weight: 600; color:#525252; font-family: 'Nanum Gothic';}
+
+
+/* 연혁 */
+.history_img {width: 521px; float: left;}
+.h_wrap {overflow: hidden; font-family: 'Nanum Gothic';}
+.history_txt {width: 522px;}
+.history_txt .h_box {margin-bottom: 15px; overflow: hidden;}
+.history_txt .h_tit {display: inline-block; font-weight: 600; font-size: 20px; color:#0061ac; width: 75px;float: left; text-align: left;}
+.history_txt .h_list {float: left; margin-top: 2px;}
+.history_txt .h_list li {font-size: 14px; /*padding-left: 15px;*/ position: relative; /*border-top: 1px solid #f2f2f2; box-sizing:border-box;*/ margin-bottom: 10px;}
+.history_txt .h_list li:last-of-type {margin-bottom: 0; /*border-bottom: 1px solid #f2f2f2; */box-sizing:border-box; padding-bottom: 10px;}
+/*.history_txt .h_list .bg {position: absolute; left: 0; top:15px; display: block; width: 5px; height: 5px; background: url(../../images/sub/img_h_list.gif) 0 0 no-repeat;}*/
+.history_txt .h_box_f {margin-bottom: 10px;}
+
+
+/* 사업영역 */
+.pro .box .comm-desc .bar {margin-top: 0;}
+.pro .box img {margin-right: 30px;}
+.pro .box .comm-desc {margin-top: 75px; width: 491px; text-align:justify;}
+.pro .box .comm-desc .ti-desc {margin-bottom: 20px; width:auto;}
+/*.pro .box .comm-desc .bg {text-decoration:underline; color:#000; font-size: 15px;}*/
+.pro .box .comm-desc .ti-desc:last-of-type {margin-bottom: 0;}
+.pro .img {text-align: center; margin-top: 100px;}
+.pro .blue {color:#1a70b0; font-weight: 600;}
+
+/* 공동연구기관 */
+.agen .img {text-align: center;}
+
+/* 오시는 길 */
+.location .img {text-align: center; padding:30px 0; border: 10px solid #f5f5f5; box-sizing:border-box;}
+
+
+
+
+/* evaluation tab */
+.select_box {border: 2px solid #0f87b1; box-sizing:border-box; padding: 0 20px; }
+.select_box .tit {display: block;  padding: 15px 0; color:#0f87b1; font-weight: 600; font-size: 14px; /*background: url(../../images/sub/img_tit_arrow.gif) 99.5% center no-repeat; */cursor: pointer; position: relative;}
+.select_box .tit p {display:inline-block; width: 400px;}
+
+.select_box .tit .img {position: absolute; right: 15px; top: 19px;}
+.select_box .tit.on {display: block;  padding: 15px 0; color:#0f87b1; font-weight: 600; font-size: 14px; /*background: url(../../images/sub/img_tit_arrow_on.gif) 99.5% center no-repeat;*/}
+.select_list {padding: 20px 0; overflow: hidden; border-top: 1px solid #a9a9a9;}
+.select_list ul {border-left: 1px solid #ddd; float: left; width: 268px; height: 220px; padding: 0 15px; box-sizing: border-box}
+.select_list ul:first-of-type {border-left: none; padding-left: 0; }
+.select_list li a {display: block; color:#7d7d7d; font-size: 13px; font-weight: 600; margin-bottom: 10px; line-height: 18px;}
+.select_list li:last-of-type a {margin-bottom: 0;}
+.select_list li:hover a {color:#111; }
+.select_list li.on a {color:#111;}
+.select_box .h02 ul {height: 95px;}
+.select_box .h03 ul {height: 84px;}
+.select_box .h04 ul {width: 357px; height: 20px;}
+.select_box .h05 ul {height: 50px;}
+/*.select_list02 ul:first-of-type {width: 530px;}*/
+/*.select_list02 ul {width: 530px;}*/
+
+
+
+.tab {overflow: hidden;}
+.tab li {float: left; }
+.tab li a {display: block; font-size: 14px; width: 223px; height: 60px; border: 1px solid #ddd; box-sizing:border-box; border-left: none; border-bottom: none; padding-left: 15px; line-height: 20px; padding-top: 18px;
+	background-image:url(../../images/sub/img_arrow.png);
+	background-repeat:no-repeat;
+	background-position:93% center;
+	background-color:#f7f7f7;}
+.tab li:hover a {color:#0f87b1; border: 1px solid #0f87b1; box-sizing:border-box; background-image:url(../../images/sub/img_arrow_ov.png); background-color: #fff; font-weight: 600;}
+.tab li.on a {color:#0f87b1; border: 1px solid #0f87b1; box-sizing:border-box; background-image:url(../../images/sub/img_arrow_ov.png); background-color: #fff; font-weight: 600;}
+.tab .bl a {border-left: 1px solid #ddd; box-sizing:border-box;}
+.tab .bb a {border-bottom: 1px solid #ddd; box-sizing:border-box;}
+.tab .pt10 a {padding-top: 10px;}
+
+.eva_tit {padding:60px 0 40px;}
+.eva_tit span {display: block; width: 80px; height: 3px; background: #0f87b1}
+.eva_tit p {display: block; font-size: 20px; font-weight: 600; color:#000; padding-top: 13px;}
+.evaluation_box {}
+.evaluation_box .list {overflow: hidden; border-top: 1px solid #e7e7e7; box-sizing:border-box; width: 1116px; height: auto; padding-top: 50px; padding-bottom: 50px;}
+.evaluation_box .list:last-of-type {border-bottom: 1px solid #e7e7e7; box-sizing:border-box;}
+.evaluation_box .list > li {float: left; }
+.evaluation_box .list01 {width: 305px; height: 200px; background: url(../../images/sub/img_boxbg.png) center center no-repeat; float: left;}
+.evaluation_box .list01 p {display: block; text-align: center; font-size: 16px; font-weight: 600; color:#0f87b1; line-height: 1.5; padding-top: 85px;}
+.evaluation_box .list .pt75 p {padding-top: 75px;}
+.evaluation_box .list-w {width: 230px; margin-left: 40px; margin-top: 35px; font-size: 14px;}
+.evaluation_box .list-w img {/*margin-bottom: 60px;*/margin-bottom: 15px;}
+.evaluation_box .list02 img {margin-bottom: 15px;}
+.evaluation_box .list02 li {/*position: relative; padding-left: 20px;*/ line-height: 1.5;}
+.evaluation_box .list02 li .bg {position: absolute; left: 0; top:2px; width: 12px; height: 13px; background: url(../../images/sub/img_boxlistbg.png) no-repeat;}
+.evaluation_box .list03 {width: 250px; margin-left: 0; text-align: center;}
+.evaluation_box .list04 {width: 250px; margin-left: 0; text-align: center;}
+.evaluation_box .list04 p {line-height: 1.5;}
+/*.evaluation_box .mb40 img {margin-bottom: 40px;}
+.evaluation_box .mb50 img {margin-bottom: 50px;}*/
+
+/* 코스메슈티컬 평가 */
+.tab02 li a {padding-top: 10px; line-height: 18px;}
+.tab02 .pt2 a {padding-top: 2px;}
+.tab02 .pt19 a {padding-top: 19px;}
+
+
+/*관능 평가*/
+.tab03 li a {padding-top: 20px; padding-top: 20px;}
+
+/* In Vitro 평가*/
+.vitro_box .list02 {width: 450px;}
+.vitro_box .list04 {width: 220px;}
+
+
+
+/* 시험상담 */
+.board .ti-tit {display: block; font-size: 18px; font-weight: 600; color:#2e2e2e; padding-bottom: 20px;}
+.board .ti-tit .bar {border-left: 3px solid #20409a; width: 3px; height: 15px; margin-right: 13px;}
+
+
+#layerPop{width:390px;height:250px;position:absolute;display:none;border:4px solid #002644; box-sizing:border-box; overflow: hidden; background: #fff; z-index: 999;}
+#layerPop .tit {font-size: 15px; background: #002644; padding-top: 15px; height: 35px; color:#fff; text-indent: 5px}
+#layerPop .tit span {float: right; margin-right: 13px;}
+#layerPop strong {display: block; text-align: center; font-size: 15px; color:#222; margin-top: 30px; padding-bottom: 5px;}
+#layerPop .ti-desc {text-align: center; font-size: 12px; color:#676767; line-height: 19px;}
+#layerPop .close {display: block; width: 70px; padding: 10px 0; font-size: 12px; color:#777; border: 1px solid #dbdada; box-sizing:border-box; position: absolute; left:150px; bottom: 20px; text-align: center;}
+
+
+
+/* 더마프로 학술활동 */
+.paper .bar {display: block; width: 80px; height: 3px; background: #0f87b1; margin-bottom: 15px; }
+.paper .comm-desc .ti-tit {display: block; font-size: 20px; line-height: 25px; font-weight: 600; color:#000}
+.paper .comm-desc .ti-desc {position: relative; padding-left: 35px; margin-top: 15px; font-size: 14px; letter-spacing: 0px; line-height: 22px;}
+.paper .comm-desc .ti-desc .num {display:inline-block; position: absolute; left: 0;}
+
+
+/* 관련기관 */
+.agency ul {overflow: hidden; margin-left:-30px;}
+.agency li {float: left; width: 351px; margin-left: 30px; text-align: center; margin-bottom: 40px;}
+.agency .comm-desc {margin: 10px 0;}
+.agency li p {line-height: 2; font-size: 15px; font-weight: 600;}
+.agency li .ti-desc {font-size: 14px; font-weight: normal;}
+
+/* 피험자 주의사항 */
+.pre .img {text-align: center;}
+
+
+/* 피험자 시험절차 */
+.step .img {text-align: center;}

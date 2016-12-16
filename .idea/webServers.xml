@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="23f20b7b-6d95-4974-a592-3c1ff7a04705" name="dermapro" url="http://dermapro.astroweb.co.kr">
+        <fileTransfer host="dermapro.astroweb.co.kr" port="5224" rootFolder="/home/dermapro/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="5224" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

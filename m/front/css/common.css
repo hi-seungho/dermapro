@@ -1,0 +1,110 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+* { margin: 0;
+	padding: 0;
+	font-size: 17px;
+	font-family: 'Nanum gothic', 'NanumGothic' , '나눔고딕', Arial;
+}
+html, body {
+	font-family: 'Nanum gothic', 'NanumGothic' , '나눔고딕', Arial;
+	font-size: 17px;
+	color: #666;
+	line-height: normal;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body { overflow-y: scroll; }
+a, a:link, a:visited, a:active { color: #666; text-decoration: none; line-height: 0; }
+
+li { list-style: none; }
+ul { margin: 0; }
+img { border: 0; line-height: 0 !important; vertical-align: middle; }
+
+/*정렬 관련*/
+.al { text-align: left !important; }
+.ac { text-align: center !important; }
+.ar { text-align: right !important; }
+.vt { vertical-align: top !important; }
+.vm { vertical-align: middle !important; }
+.vb { vertical-align: bottom !important; }
+
+.fl { float: left; }
+.fr { float: right; }
+.fc { float: center; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.clfl:after { *zoom: 1; }
+.clfl:after { content: ""; display: block; clear: both; }
+* html .clfix { height: 1%; }/*Hides from IE-mac*/
+.clfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clfix { display: inline-block; }
+.clfix { zoom: 1; }/*for IE 5.5-7*/
+
+/*margin 관련 */
+.m0 { margin: 0px !important; }
+
+.mt0 { margin-top: 0px !important; }
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+.mt20 { margin-top: 20px !important; }
+.mt30 { margin-top: 30px !important; }
+.mt40 { margin-top: 40px !important; }
+.mt50 { margin-top: 50px !important; }
+.mt60 { margin-top: 60px !important; }
+.mt80 { margin-top: 80px !important; }
+
+.mb0 { margin-bottom: 0px !important; }
+.mb05 { margin-bottom: 5px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb30 { margin-bottom: 30px !important; }
+.mb50 { margin-bottom: 50px !important; }
+.mb60 { margin-bottom: 60px !important; }
+
+.mr0 { margin-right: 0px !important; }
+.mr02 { margin-right: 2px !important; }
+.mr10 { margin-right: 10px !important; }
+.mr20 { margin-right: 20px !important; }
+
+.ml0 { margin-left: 0px !important; }
+.ml10 { margin-left: 10px !important; }
+
+/*padding 관련*/
+.p0 { padding: 0px !important; }
+
+.pt0 { padding-top: 0px !important; }
+
+.pb0 { padding-bottom: 0px !important; }
+
+.pr0 { padding-right: 0px !important; }
+
+.pl0 { padding-left: 0px !important; }
+.pl10 { padding-left: 10px !important; }
+
+/* line-height*/
+.lh0 { line-height: 0px !important; }
+
+/*폰트관련*/
+.fw_b { font-weight: bold; }
+
+/*라디오버튼 러벨 정렬*/
+label { vertical-align: -1px; }
+.input_chk { width: 13px; height: 13px; vertical-align: text-top; }
+
+.input_text1 { width: 250px; height: 20px; font-size: 18px; padding: 10px; outline: none; border: 1px solid #ddd; vertical-align: top; }
+.input_text2 { width: 430px; height: 20px; font-size: 18px; padding: 10px; outline: none; border: 1px solid #ddd; vertical-align: top; }
+.input_text3 { height: 20px; font-size: 18px; padding: 10px; outline: none; border: 1px solid #ddd; vertical-align: top; }
+
+
+.sel_type1 { width: 160px; height: 42px; border: 1px solid #ddd; background-color: #fff; font-size: 18px; vertical-align: top; }
+.sel_type2 { width: 450px; height: 42px; border: 1px solid #ddd; background-color: #fff; font-size: 18px; vertical-align: top; }
+
+.input_chk1 { width: 15px; height: 15px; vertical-align: middle; margin-right: 3px; }
+.textarea1 { width: 460px; height: 200px; position: relative; resize: none; border: 1px solid #ddd; font-size: 18px; }
+.textarea2 { width: 450px; height: 200px; position: relative; resize: none; border: 1px solid #ddd; font-size: 18px; }
+
+.italic { font-style: italic !important; }
+.t_type1 { font-family: }

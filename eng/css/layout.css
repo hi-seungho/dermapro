@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*******
+
+BSJ CSS RESET
+wrap,  container, footer, leftmenu 등 해당되는 레이아웃을 지정합니다.
+
+*******/
+
+
+/* header */
+
+#lay_header {width: 100%; position: absolute; background: #fff; top: 0; left: 0; z-index: 9999;}
+.header_area {width: 1116px; margin:0 auto; padding-top: 10px; overflow: hidden; height: 90px;}
+.header_bar {overflow: hidden;}
+.left_menu li {float: left;}
+.left_menu li a {display: block; font-size: 15px; color:#666; padding-left: 10px; margin-left: 10px; background: url(../img/main/img_mainbar.gif) 0 50% no-repeat; font-family: 'MyriadPro-Regular'; }
+.left_menu li:first-child a {background: none; padding-left: 0; margin-left: 0;}
+.right_menu {float: right;}
+.right_menu li {float: left;font-family: 'MyriadPro-Regular'; font-size: 15px;}
+.right_menu li a {display: block; margin-left: 10px; padding-left: 10px; background: url(../img/main/img_hbar.gif) 0 50% no-repeat; font-size: 15px;font-family: 'Nanum Gothic';}
+.right_menu li:nth-child(2) a {background: none;}
+.right_menu .first {padding-left: 20px; background: url(../img/main/img_lang.png) 0 75% no-repeat;}
+#Logo {width: 145px; float: left; margin-top: 10px;}
+#Logo a {display: block;}
+#MainMenu {width: 725px; float: right;}
+.menu > li {float: left; width: 150px; margin-top: 30px;  text-align: center;}
+.menu > li:last-of-type {width: 100px;}
+.menu > li > a {display: block; font-size: 18px; height: 31px; font-family: 'Nanum Gothic';}
+/*#MainMenu li:hover {background-image:url(../img/main/img_subbg.png); background-repeat: no-repeat;
+	background-position:18px bottom }*/
+.sub_menu {width: 170px; z-index: 999; padding-top:9px ; position: absolute; /*background: #eee; */display: block; background-image:url(../img/main/img_subbg.png); background-repeat:no-repeat; background-position:center top; }
+.sub_menu li  {background: #eee;;}
+.sub_menu li a {display: block; font-size: 14px; text-align: left; line-height: 2.5; color:#777; font-family: 'Nanum Gothic'; text-indent: 25px;}
+.sub_menu li:hover a {color:#000}
+.sub_menu .pt {padding-top: 15px; background: #eee;}
+.sub_menu .pb {padding-bottom: 15px; background: #eee;;}
+.sub01 {margin-left:-8px;}
+.sub02 {margin-left: -8px;}
+.sub03 {margin-left: -10px;}
+.sub03 li a {text-align: center; text-indent: -10px;;}
+.sub04 {margin-left: -10px;}
+.sub05 {margin-left: -35px;}
+.sub05 li a {text-align: center; text-indent: 0;}
+/*.sub_box {overflow: hidden; height: 320px; display: none;background: #eee;}
+.sub_box>ul{width: 1116px; margin:0 auto; overflow: hidden;}
+.sub_box ul > li {float: left; width: 150px;}
+.sub_box ul > li a {display:block; font-size: 14px; color:#777;}
+.sub_box .sub00 {width: 330px; margin-right: 80px; padding: 50px 0;}
+.sub_box .sub_list {padding-top: 20px; position: relative;}
+.sub_box .sub_list li {margin-top: 15px;}
+.sub_box .sub_list li:first-of-type {margin-top: 0;}
+.sub_box ul > li:last-of-type {width: 100px;}
+.sub_box .sub_list li:hover a {color:#444;}*/
+/*.sub_box .sub01 {background-image:url(../img/main/img_subbg.png); background-repeat:no-repeat; background-position:60px 5px;  border: 1px solid #000;}*/
+/*.sub_box .sub_list .img {display: none;}
+.sub_box .sub01:hover .img {display: block; position: absolute; top: -10px; left: 19px;}
+.sub_box .sub02:hover .img {display: block; position: absolute; top: -10px; left: 19px;}
+.sub_box .sub03:hover .img {display: block; position: absolute; top: -10px; left: 19px;}
+.sub_box .sub04:hover .img {display: block; position: absolute; top: -10px; left: 19px;}
+.sub_box .sub05:hover .img {display: block; position: absolute; top: -10px; left: 19px;}*/
+
+.italic {font-style: italic;}
+
+/* container */
+
+#lay_container {width: 100%; margin-top: 100px; overflow: hidden;}
+.main_slide {margin:0 auto;}
+.main_slide li {height: 630px;}
+.main_slide .slider01 {background: url(../img/main/img_slider01.jpg) center 0 no-repeat;}
+.main_slide .slider02 {background: url(../img/main/img_slider02.jpg) center 0 no-repeat;}
+.main_slide .slider03 {background: url(../img/main/img_slider03.jpg) center 0 no-repeat;}
+
+
+.main_section01 {width: 1116px; margin:0 auto; overflow: hidden; padding:60px 0 85px 0;}
+.main_section01 h3 {font-size: 26px; text-align: center; font-family:'AvenirLTStd-Light'; font-weight: bold; }
+.main_section01 h3 span {display: block; font-size: 19px;}
+.main_section01 h3 span.c1 {color:#0a909c;}
+.main_section01 .bar {text-indent: -9999px; display: block; width: 55px; height: 4px; background:#0a909c; margin:0 auto; margin:25px auto 60px;}
+.main_section01 ul {overflow: hidden;}
+.main_section01 li {float: left; width: 198px; font-size: 13px; padding:0 10px; text-align: center;}
+.main_section01 li span {display: block; text-align: center; font-size: 17px; margin-top: 30px; font-weight: 600; color:#222; margin-top: 35px; margin-bottom: 20px; ffont-family: 'Nanum Gothic';}
+.main_section01 .ti-desc {line-height: 20px; height: 130px; font-family: 'Nanum Gothic';}
+.main_section01 li a {display: block; width: 136px; height: 40px; background: url(../img/main/btn_off.png) no-repeat; text-indent: -9999px; margin:20px auto 0; font-family: 'Nanum Gothic';}
+.main_section01 li a:hover {background: url(../img/main/btn_on.png) no-repeat;}
+
+.main_section02 {margin:0 auto; overflow: hidden; }
+.main_section02 .bg {height: 200px; padding: 80px 0;margin:0 auto;}
+.main_section02 .txt {width: 1116px; height: 201px; margin:0 auto; font-family: 'Nanum Gothic';}
+.main_section02 .txt .ti-tit {display: block; font-size: 26px; font-weight: 600; color:#222; }
+.main_section02 .txt span {font-size: 18px; font-weight: normal; margin-left: 15px; font-family: 'AvenirLTStd-Medium'; color:#3e3b3b;}
+.main_section02 .txt span img {vertical-align: middle;}
+.main_section02 .txt .ti-desc {margin: 20px 0;}
+.main_section02 .top {background: url(../img/main/img_bginfo01.jpg) center 0 no-repeat;}
+.main_section02 .top .right {max-width: 1116px; margin-left: 785px;}
+.main_section02 .bottom {background: url(../img/main/img_infobg02.jpg) center 0 no-repeat;}
+.main_section02 .bottom .left {min-width: 1116px; float: left;}
+
+.main_section03 {width: 1116px; margin:0 auto; overflow: hidden; padding: 85px 0;font-family: 'Nanum Gothic';}
+.main_section03 .mm {float: left; height: 220px;}
+.main_section03 .mm .tit {font-size: 22px; font-weight: 600; color:#222; font-family: 'Nanum Gothic';}
+.main_section03 .m01 {width: 331px; position: relative;}
+.main_section03 .m01 .tit {border-bottom: 1px solid #000; box-sizing:border-box; margin-bottom: 20px; padding-bottom: 5px;}
+.main_section03 .m01 > span {position: absolute; right: 0; top: 5px;}
+.main_section03 .m01 li {padding-left: 8px; background: url(../img/main/btn_section0301.gif) 0 50% no-repeat; margin-bottom: 15px;}
+.main_section03 .m01 li:last-of-type {margin-bottom: 0;}
+.main_section03 .date {float: right; font-size: 12px;}
+.main_section03 span {display: block; font-size: 11px;}
+.main_section03 .m02 {width: 335px; background: url(../img/main/img_notic02.png) right bottom no-repeat; margin-left: 30px;}
+.main_section03 .m03 {float: right; width: 370px; background: url(../img/main/img_notic03.png) right bottom no-repeat;}
+.main_section03 .ti-desc {font-size: 16px; color:#a3a3a3; margin-top: 20px; line-height: 22px;}
+.main_section03 .more {display: block; width: 65px; border: 1px solid #dedddd; box-sizing:border-box; text-align: center; margin-top: 65px;}
+.main_section03 .more span {padding: 5px 0;}
+
+/*footer*/
+.footer_wrap {overflow: hidden; background: #f1f1f1; font-family: 'Nanum Gothic';}
+.footer_gnb {border-top: 1px solid #dedddd; border-bottom: 1px solid #dedddd; box-sizing:border-box; padding: 15px 0;}
+.footer_gnb ul {max-width: 1116px; margin:0 auto; overflow: hidden;}
+.footer_gnb ul li {float: left; margin-left: 12px; padding-left: 12px; background: url(../img/main/img_footergnb.gif) 0 50% no-repeat;font-family: 'Nanum Gothic';}
+.footer_gnb ul li:first-of-type {margin-left: 0; padding-left: 0; background: none; color:#414141;}
+.footer_info {width: 1116px; margin:0 auto; padding: 30px 0; overflow: hidden; position: relative;}
+.flogo {float: left; width: 141px;}
+.flogo a {display: block;}
+.fcon {float: left;  width: 620px; margin-left: 30px; font-size: 12px; color:#737373; line-height: 22px;}
+.copy {margin-top: 5px;}
+.famliysite {position: absolute; right: 0; top: 25px; background: #fff; color:#8a8a8a; font-size: 12px;}
+.family_btn {position: relative; display: block; width: 138px; padding: 5px 0; background: url(../img/main/btn_fmdown.gif) no-repeat 92% center; border:1px solid #dedddd;  text-indent: 10px; cursor:pointer; margin-bottom: -1px;}
+.famliysite .family_list {position: absolute; left: 0; width: 140px; text-indent: 10px;  overflow:hidden; border: 1px solid #dedddd;box-sizing:border-box; background: #fff; line-height: 22px; border-top: none;}
+.famliysite .family_list a {color:#8a8a8a;}
